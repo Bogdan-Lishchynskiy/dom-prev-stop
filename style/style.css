@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#box1 {
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+
+#box2 {
+    background: green;
+    width: 150px;
+    height: 150px;
+}
+
+#box3 {
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#box11 {
+    background: red;
+    width: 200px;
+    height: 200px;
+}
+
+#box22 {
+    background: green;
+    width: 150px;
+    height: 150px;
+}
+
+#box33 {
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
