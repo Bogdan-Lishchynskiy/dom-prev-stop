@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
 </head>
+
 <body>
     <div class="container">
         <div id="box1" class="box">
@@ -25,12 +26,16 @@
             without stopPropagation()
         </div>
     </div>
+    <p> stopPropagation stops the event from bubbling up the event chain.</p>
+    <p> preventDefault prevents the default action the browser makes on that event.</p>
     <p>
         <a class="url" href="https://www.google.com/">You can't visit google link because preventDefault used!!</a>
     </p>
     <p>
-    <a class="url" href="https://www.google.com/">Visit google link</a>
-        </p>
+        <a class="url" href="https://www.google.com/">Visit google link</a>
+    </p>
+
+
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="main.js"></script>
 
